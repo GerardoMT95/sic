@@ -1,15 +1,14 @@
-sonar.projectKey=GerardoMT95_provus
+sonar.projectKey=GerardoMT95_sic
 sonar.organization=gerardomt95
 
 # This is the name and version displayed in the SonarCloud UI.
-sonar.projectName=tesi
-sonar.projectVersion=1.0
+#sonar.projectName=sic
+#sonar.projectVersion=1.0
 
 # Path is relative to the sonar-project.properties file. Replace "\" by "/" on Windows.
-sonar.sources=src
+sonar.sources=SICAnagrafeInterface/src, SICInterface/src
 sonar.java.binaries=build
-sonar.java.libraries=lib/*.jar
-
+sonar.java.libraries=SICAnagrafeInterface/lib/*.jar, SICInterface/lib/*.jar
 
 # Encoding of the source code. Default is default system encoding
 #sonar.sourceEncoding=UTF-8
